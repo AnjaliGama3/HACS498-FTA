@@ -1,0 +1,24 @@
+{
+  "name": "hacs498-fta",
+  "version": "1.0.0",
+  "description": "Analyzing files",
+  "main": "index.js",
+  "dependencies": {
+    "aws-xray-sdk": "^3.2.0",
+    "axios": "^0.21.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4estwu/HACS498-FTA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4estwu/HACS498-FTA/issues"
+  },
+  "homepage": "https://github.com/4estwu/HACS498-FTA#readme"
+}
