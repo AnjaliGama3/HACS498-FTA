@@ -1,0 +1,26 @@
+<html>
+<script>
+
+function myFunction() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+        document.getElementById("my-demo").innerHTML = this.responseText;
+        }
+    };
+    xhttp.open("GET", "https://5e5ppw9dy9.execute-api.us-east-1.amazonaws.com/default/bmgt299bLambdaFunction", true);
+    xhttp.send();
+
+}
+
+</script>
+<body><div align="center"><br><br><br><br>
+<h1>Go <span id="my-demo">Maryland Terps!</span></h1>
+<button onclick="myFunction()">Click Me</button><br>
+<img src="https://images-na.ssl-images-amazon.com/images/I/51UlXHZUwPL.jpg"></div>
+</body>
+</html>
+
+
+
+link to the actuwl api  curl https://k2mqm7m3al.execute-api.us-east-1.amazonaws.com/Test/HACS498?url="https://grahamschuckman-hacs498.s3.amazonaws.com/hellothere.exe?AWSAccessKeyId=AKIAU66CGDDJG7NXEO44&Expires=1606186615&Signature=qEofbjGXUsEDyLng8gEk23eO1jQ%3D"
